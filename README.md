@@ -1,8 +1,6 @@
 # Digit Recognizer
 Refactored code and visualizations from my Jupyter notebook submission to Kaggle's recurring Digit Recognizer machine learning competition.
 
-Classify handwritten digits (0–9) using machine learning and deep learning models.
-
 ## Objective
 
 This project is based on the Digit Recognizer competition on Kaggle.  The task is to correctly predict the correct label (0–9) for hand-drawn digits from 28x28 grayscale images' pixel values (MNIST dataset format).
