@@ -3,17 +3,17 @@ Refactored code and visualizations from my Jupyter notebook submission to Kaggle
 
 Classify handwritten digits (0–9) using machine learning and deep learning models.
 
-##Overview
+## Overview
 
 This project is based on the Digit Recognizer competition on Kaggle.  The task is to correctly identify hand-drawn digits from 28x28 grayscale images (MNIST dataset format).
 
-##Objective
+## Objective
 
 Given pixel values of handwritten digits, predict the correct label (0–9).
 
 ---
 
-##Approach
+## Approach
 
 ### 1. Exploratory Data Analysis (EDA)
 
@@ -31,7 +31,7 @@ Given pixel values of handwritten digits, predict the correct label (0–9).
 
 ### 3. Models
 
-####Advanced Model (Convolutional Neural Network)
+#### Advanced Model (Convolutional Neural Network)
 
 * 2 Convolutional layers + MaxPooling
 * Dropout for regularization
@@ -43,7 +43,7 @@ Given pixel values of handwritten digits, predict the correct label (0–9).
 
 ---
 
-##Results
+## Results
 
 | Model               | Accuracy |
 | ------------------- | -------- |
@@ -51,7 +51,7 @@ Given pixel values of handwritten digits, predict the correct label (0–9).
 
 ---
 
-##Project Structure
+## Project Structure
 
 * `notebooks/` → experimentation and EDA
 * `src/` → reusable pipeline code
@@ -59,7 +59,7 @@ Given pixel values of handwritten digits, predict the correct label (0–9).
 
 ---
 
-##Setup
+## Setup
 
 ```bash id="setup-dig"
 git clone https://github.com/yourusername/digit-recognizer.git
@@ -69,7 +69,7 @@ pip install -r requirements.txt
 
 ---
 
-##Data
+## Data
 
 Download the dataset from Kaggle and place files in:
 
@@ -81,15 +81,15 @@ data/raw/
 
 ---
 
-##Train Models
+## Train Models
 
-###Baseline model
+### Baseline model
 
 ```bash id="baseline-run"
 python src/models/train_baseline.py
 ```
 
-###CNN model
+### CNN model
 
 ```bash id="cnn-run"
 python src/models/train_cnn.py
@@ -97,14 +97,14 @@ python src/models/train_cnn.py
 
 ---
 
-##Key Insights
+## Key Insights
 
 * Even simple models perform well due to clean dataset
 * CNN significantly outperforms classical ML
 
 ---
 
-##Future Improvements
+## Future Improvements
 
 * Hyperparameter tuning (learning rate, filters)
 * New layers
@@ -114,7 +114,7 @@ python src/models/train_cnn.py
 
 ---
 
-##Tech Stack
+## Tech Stack
 
 * Python
 * NumPy / Pandas
