@@ -116,9 +116,9 @@ python src/models/train_cnn.py
 ## Tech Stack
 
 * Python
-* NumPy / Pandas
-* Scikit-learn
-* TensorFlow / PyTorch
+* NumPy, Pandas
+* TensorFlow
+* Keras
 
 ---
 
