@@ -5,6 +5,19 @@ Refactored code and visualizations from my Jupyter notebook submission to Kaggle
 
 This project is based on the Digit Recognizer competition on Kaggle.  The task is to correctly predict the correct label (0–9) for hand-drawn digits from 28x28 grayscale images' pixel values (MNIST dataset format).
 
+
+
+* [Approach](#Approach)
+* [Results](#Results)
+* [Project Structure](#project-structure)
+* [Setup](#setup)
+* [Data](#data)
+* [About](#about)
+* [Train Models](#train-models)
+* [Key Insights](#key-insights)
+* [Future Improvements](#future-improvements)
+* [Tech Stack](#tech-stack)
+
 ---
 
 ## Approach
@@ -20,8 +33,6 @@ This project is based on the Digit Recognizer competition on Kaggle.  The task i
 * Normalized pixel values (0–255 → 0–1)
 * Reshaped data for CNN input (28×28×1)
 * Train/validation split
-
----
 
 ### 3. Models
 
