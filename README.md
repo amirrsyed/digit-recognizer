@@ -83,12 +83,6 @@ data/raw/
 
 ## Train Models
 
-### Baseline model
-
-```bash id="baseline-run"
-python src/models/train_baseline.py
-```
-
 ### CNN model
 
 ```bash id="cnn-run"
@@ -123,6 +117,6 @@ python src/models/train_cnn.py
 
 ---
 
-##Acknowledgements
+## Acknowledgements
 
 Competition hosted on Kaggle (MNIST dataset)
